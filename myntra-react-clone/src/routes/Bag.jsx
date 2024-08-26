@@ -1,8 +1,7 @@
-import Header from "./component/Header";
-import Header from "./component/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Bag = () =>{
-return <>
-    <Header/>
+return
     <main>
       <div className="bag-page">
         <div className="bag-items-container">
@@ -12,8 +11,6 @@ return <>
 
       </div>
     </main>
-    <Footer/>
-</>
 }
 
 export default Bag;
